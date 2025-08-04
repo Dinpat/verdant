@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+section {
+    margin-top: 50px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+ h2 {
+    font-weight: bold;
+ } 
+
+
+.icon-circle {
+    background-color: #4CAF50; /* hijau */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visi-misi-box {
+        background-color: rgba(255, 255, 255, 0.1); /* transparan putih */
+        border-radius: 12px;
+        padding: 30px;
+        color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        min-height: 300px;
+    }
+
+    .icon-daun {
+        width: 30px;
+        height: 30px;
+        fill: #bfffc1; /* hijau daun muda */
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 767px) {
+        .visi-misi-box {
+            text-align: center;
+        }
+    }
+
+.nav-link::before {
+    content: none !important;
+}

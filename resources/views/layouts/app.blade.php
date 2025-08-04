@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Verdant | Company Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg px-5 navbar-dark py-3" style="background: #0b1408">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="#">VERDANT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Artikel
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">instagram</a></li>
+                            <li><a class="dropdown-item" href="#">shopee</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">kontak</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                @auth
+                    <li class="nav-item dropdown text-white">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAkun" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ Auth::user()->name }} 
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownAkun">
+                            <li>
+                                <a class="dropdown-item" href="#">Profile</a>
+                            </li>
+                            <li>
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+                                    <button type="submit" class="dropdown-item">Logout</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                @else
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-light px-3" href="{{ route('login') }}">Login</a>
+                    </li>
+                @endauth
+            </div>
+        </div>
+    </nav>
+
+    <div class="container px-6 mt-0">
+        @yield('content')
+    </div>
+
+    <footer class="bg-success bg-opacity-10 text-dark pt-5 pb-3">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <!-- Logo -->
+                <div class="col-md-3 mb-4">
+                    <img src="/img/verdant1.png" style="height: 200px;">
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark">Home</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">About</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Services</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Projects</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold">Services</h6>
+                    <ul class="list-unstyled">
+                        <li>Outdoor Lighting</li>
+                        <li>Irrigation System</li>
+                        <li>Landscape Architecture</li>
+                        <li>Lawn Care & Maintenance</li>
+                    </ul>
+                </div>
+
+                <!-- Address -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold">Address</h6>
+                    <p class="mb-0">Amanusa Regency 1 No. D1 Krajan</p>
+                    <p class="mb-0">Wedomartani Ngemplak Sleman</p>
+                    <p class="mb-2">Yogyakarta</p>
+                    <p><strong>Call Us:</strong> 088888888888</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+                <small>Copyright © 2025 Dsign by Dinda Patrisca </small>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
