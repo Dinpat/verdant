@@ -104,3 +104,143 @@ h1 {
         .testimonial-carousel .carousel-inner {
             padding: 0 50px;
         }
+
+  /* CSS Kustom untuk Galeri */
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .gallery-section {
+            padding: 60px 0;
+        }
+
+        .gallery-title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;   
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            aspect-ratio: 1 / 1;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0; 
+            left: 0;
+            width: 100%;
+            height: 60%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+            
+            color: white;
+            display: flex;
+            justify-content: center; 
+            align-items: flex-end;   
+            transform: translateY(100%);
+            transition: transform 0.4s ease-out; 
+        }
+
+        .gallery-caption {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-align: center;
+            padding: 20px; 
+        }
+        
+        
+
+        .gallery-item:hover .gallery-overlay {
+            transform: translateY(0);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1); 
+        }
+
+/* event */
+        /* body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0c0c0c; 
+        } */
+
+        .activities-section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 2.8rem;
+            margin-bottom: 50px;
+            color: #000000;
+        }
+
+        /* Card untuk setiap kegiatan */
+        .event-card {
+            background-color: #1a1a1a; /* Warna card sedikit lebih terang dari background */
+            border-radius: 12px;
+            overflow: hidden; /* Penting agar gambar mengikuti border-radius */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%; /* Membuat semua card sama tinggi */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .event-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Kontainer gambar untuk rasio aspek yang konsisten */
+        .event-card-img-container {
+            width: 100%;
+            aspect-ratio: 16 / 9; /* Rasio aspek gambar agar seragam */
+        }
+        
+        .event-card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Memastikan gambar mengisi ruang tanpa distorsi */
+        }
+
+        /* Konten di bawah gambar */
+        .event-card-content {
+            padding: 20px;
+            background-color: #1e6e4a;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .event-title {
+            font-weight: 600;
+            color: #ffffff;
+            font-size: 1.25rem;
+        }
+
+        .event-date {
+            color: #adb5bd; /* Warna abu-abu untuk tanggal */
+            font-size: 0.9rem;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        .event-description {
+            color: #ced4da; /* Warna putih pudar untuk deskripsi */
+            font-size: 1rem;
+            line-height: 1.6;
+            flex-grow: 1;
+        }

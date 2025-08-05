@@ -90,7 +90,7 @@
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="visi-misi-box">
                         <!-- Ikon daun -->
-                       <i class="bi bi-leaf"></i>
+                        <i class="bi bi-leaf"></i>
                         <h4>Mission</h4>
                         <p>
                             Menyediakan solusi pertanian modern berbasis teknologi.<br>
@@ -112,7 +112,7 @@
         <div class="text-center">
             <img src="/img/verdant1.png" alt="Verdant Logo" height="400">
             <div class="col-md-8 mx-auto">
-                <p class="text-center mt-3">
+                <p id="penjelasan" class="text-center mt-3">
                     VERDANT adalah solusi rumah kaca modular berbasis IoT yang mendukung pertanian perkotaan dan skala
                     kecil.
                     Dengan sistem otomatisasi dan dashboard pintar, petani dapat mengelola pertanian secara efisien dari
@@ -292,6 +292,167 @@
         </div>
     </section>
 
+    <section class="gallery-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="gallery-title">Client Gallery</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/aplikasi2.png" alt="Application">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">Aplikasi Verdant</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/contoh2.webp" alt="">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">Indoor area</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/panen.png" alt="Proses Panen">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">Proses Panen</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/lembab.png" alt=" Lembab">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">Kebun Verdant Yogyakarta</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/team.jpg" alt="Client Langganan">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">Client Langganan</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/cektanam.png" alt="Cek Tanam">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">Perawatan Tanaman</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/home.png" alt="Verdant Jakarta">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">Verdant Jakarta</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="gallery-item">
+                        <img src="/img/home2.png" alt="Verdant Bandung">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">Verdant Bandung</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- event --}}
+    <section class="activities-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Dokumentasi Kegiatan</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="event-card">
+                        <div class="event-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfHNlYXJjaHw1fHxjb21wYW55JTIwc2VtaW5hcnxlbnwwfDB8fHwxNzIyODQyMDYyfA&ixlib=rb-4.0.3&q=80&w=1080"
+                                alt="Seminar Perusahaan" class="event-card-img">
+                        </div>
+                        <div class="event-card-content">
+                            <h5 class="event-title">Seminar Perusahaan 2025</h5>
+                            <p class="event-date">Depok, 5 Agustus 2025</p>
+                            <p class="event-description">Seminar tahunan untuk meningkatkan kapabilitas dan inovasi tim
+                                internal.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="event-card">
+                        <div class="event-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfHNlYXJjaHw4fHxwcm9kdWN0JTIwbGF1bmNofGVufDB8MHx8fDE3MjI4NDIwOTJ8&ixlib=rb-4.0.3&q=80&w=1080"
+                                alt="Peluncuran Produk" class="event-card-img">
+                        </div>
+                        <div class="event-card-content">
+                            <h5 class="event-title">Peluncuran Produk 'Innovate X'</h5>
+                            <p class="event-date">Jakarta, 17 Juli 2025</p>
+                            <p class="event-description">Perilisan resmi produk terbaru kami yang revolusioner kepada media
+                                dan publik.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="event-card">
+                        <div class="event-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfHNlYXJjaHwxfHxDU1IlMjB2b2x1bnRlZXJ8ZW58MHwwfHx8MTcyMjg0MjEyN3w&ixlib=rb-4.0.3&q=80&w=1080"
+                                alt="Kegiatan Sosial" class="event-card-img">
+                        </div>
+                        <div class="event-card-content">
+                            <h5 class="event-title">Bakti Sosial & CSR</h5>
+                            <p class="event-date">Yogyakarta, 22 Juni 2025</p>
+                            <p class="event-description">Berbagi dengan masyarakat sekitar sebagai wujud kepedulian sosial
+                                perusahaan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="event-card">
+                        <div class="event-card-img-container">
+                            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjBleHBvfGVufDB8MHx8fDE3MjI4NDIxODF8&ixlib=rb-4.0.3&q=80&w=1080"
+                                alt="Pameran Bisnis" class="event-card-img">
+                        </div>
+                        <div class="event-card-content">
+                            <h5 class="event-title">Partisipasi di Indo-Tech Expo</h5>
+                            <p class="event-date">Surabaya, 10-12 April 2025</p>
+                            <p class="event-description">Memperkenalkan keunggulan teknologi dan produk kami di pameran
+                                terbesar.</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section>
+
+
     {{-- TESTIMONI --}}
     <section class="py-5 testimonial-section" style="background-color: #f0f7f2;">
         <div class="container">
@@ -405,7 +566,7 @@
             </div>
         </div>
     </section>
- <div class="modal fade" id="modalUntukTestimoni" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalUntukTestimoni" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -426,11 +587,16 @@
                         <div class="mb-3">
                             <label class="form-label d-block">Rating Anda</label>
                             <div class="star-rating">
-                                <input type="radio" id="5-stars" name="rating" value="5" required/><label for="5-stars" class="star">&#9733;</label>
-                                <input type="radio" id="4-stars" name="rating" value="4" /><label for="4-stars" class="star">&#9733;</label>
-                                <input type="radio" id="3-stars" name="rating" value="3" /><label for="3-stars" class="star">&#9733;</label>
-                                <input type="radio" id="2-stars" name="rating" value="2" /><label for="2-stars" class="star">&#9733;</label>
-                                <input type="radio" id="1-star" name="rating" value="1" /><label for="1-star" class="star">&#9733;</label>
+                                <input type="radio" id="5-stars" name="rating" value="5" required /><label
+                                    for="5-stars" class="star">&#9733;</label>
+                                <input type="radio" id="4-stars" name="rating" value="4" /><label
+                                    for="4-stars" class="star">&#9733;</label>
+                                <input type="radio" id="3-stars" name="rating" value="3" /><label
+                                    for="3-stars" class="star">&#9733;</label>
+                                <input type="radio" id="2-stars" name="rating" value="2" /><label
+                                    for="2-stars" class="star">&#9733;</label>
+                                <input type="radio" id="1-star" name="rating" value="1" /><label
+                                    for="1-star" class="star">&#9733;</label>
                             </div>
                         </div>
                         <div class="mb-3">

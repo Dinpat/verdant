@@ -11,9 +11,10 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg px-5 navbar-dark py-3" style="background: #0b1408">
+    <nav class="navbar navbar-expand-lg px-5 navbar-dark py-3 sticky-top" style="background: #0b1408">
         <div class="container-fluid px-5">
-            <a class="navbar-brand" href="#">VERDANT</a>
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/verdant1.png" alt="Logo Verdant" width="40" height="40" class="d-inline-block align-text-top me-2">VERDANT</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -25,7 +26,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">about us</a>
+                        <a class="nav-link" href="#penjelasan">about us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

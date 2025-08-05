@@ -15,36 +15,7 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-class LoginController extends Controller
-{
-    public function showLoginForm()
-    {
-        return view('auth.login'); // pastikan kamu punya file resources/views/auth/login.blade.php
-    }
 
-    public function login(Request $request)
-    {
-        $credentials = $request->only('email', 'password');
-
-        if (Auth::attempt($credentials)) {
-            return redirect()->intended('/home'); // arahkan setelah login sukses
-        }
-
-        return back()->withErrors([
-            'email' => 'Email atau password salah.',
-        ])->withInput();
-    }
-
-    public function logout(Request $request)
-    {
-        Auth::logout();
-        $request->session()->invalidate();
-        $request->session()->regenerateToken();
-
-        return redirect('/login');
-    }
-    
-}
 Route::middleware(['auth'])->group(function () {
     Route::get('/admin/penghargaan', [PenghargaanController::class, 'adminIndex'])->name('awards.admin');
     Route::post('/admin/penghargaan', [PenghargaanController::class, 'store'])->name('awards.store');
