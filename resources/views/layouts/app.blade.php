@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -32,12 +33,12 @@
                             Artikel
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">instagram</a></li>
-                            <li><a class="dropdown-item" href="#">shopee</a></li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/dindapatriska/" target="blank">instagram</a></li>
+                            <li><a class="dropdown-item" href="https://shopee.co.id/verdant.id" target="blank">shopee</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">kontak</a></li>
+                            <li><a class="dropdown-item" href="#artikel">Artikel</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -35,11 +35,7 @@
                 <div class="col-md-3 ">
                     <div class="p-3 border rounded bg-white text-center">
                         <div class="icon-circle mx-auto mb-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                                class="bi bi-leaf" viewBox="0 0 16 16">
-                                <path
-                                    d="M1.4 1.7c.216.289.65.84 1.725 1.274 1.093.44 2.884.774 5.834.528l.37-.023c1.823-.06 3.117.598 3.956 1.579C14.16 6.082 14.5 7.41 14.5 8.5c0 .58-.032 1.285-.229 1.997q.198.248.382.54c.756 1.2 1.19 2.563 1.348 3.966a1 1 0 0 1-1.98.198c-.13-.97-.397-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435-1.125-.887-1.89-2.095-2.391-3.383C.16 6.62.16 3.646.509 1.902L.73.806zm-.05 1.39c-.146 1.609-.008 3.809.74 5.728.457 1.17 1.13 2.213 2.079 2.961.942.744 2.185 1.22 3.83 1.221 2.588 0 3.91-.66 4.609-1.445-1.789-2.46-4.121-1.213-6.342-2.68-.74-.488-1.735-1.323-1.844-2.308-.023-.214.237-.274.38-.112 1.4 1.6 3.573 1.757 5.59 2.045 1.227.215 2.21.526 3.033 1.158.058-.39.075-.782.075-1.158 0-.91-.288-1.988-.975-2.792-.626-.732-1.622-1.281-3.167-1.229l-.316.02c-3.05.253-5.01-.08-6.291-.598a5.3 5.3 0 0 1-1.4-.811" />
-                            </svg>
+                            <i class="bi bi-leaf fs-2"></i>
                         </div>
                         <h4>Ramah Lingkungan</h4>
                         <p class="mt-4 mb-0">Teknologi yang mendukung pertanian berkelanjutan dengan minimal dampak
@@ -49,11 +45,7 @@
                 <div class="col-md-3">
                     <div class="p-3 border rounded bg-white text-center">
                         <div class="icon-circle mx-auto mb-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                                class="bi bi-lightbulb" viewBox="0 0 16 16">
-                                <path
-                                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
-                            </svg>
+                            <i class="bi bi-lightbulb fs-2"></i>
                         </div>
                         <h4>Inovasi Terdepan</h4>
                         <p class="mt-4 mb-0">Sistem hidroponik otomatis dengan monitoring real-time dan AI analytics</p>
@@ -62,12 +54,7 @@
                 <div class="col-md-3">
                     <div class="p-3 border rounded bg-white text-center">
                         <div class="icon-circle mx-auto mb-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                                class="bi bi-award" viewBox="0 0 16 16">
-                                <path
-                                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
-                                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
-                            </svg>
+                            <i class="bi bi-award fs-2"></i>
                         </div>
                         <h4>Kualitas Terjamin</h4>
                         <p class="mt-4 mb-0">Sertifikasi internasional dan standar kualitas tinggi untuk semua produk</p>
@@ -76,11 +63,7 @@
                 <div class="col-md-3">
                     <div class="p-3 border rounded bg-white text-center">
                         <div class="icon-circle mx-auto mb-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                                class="bi bi-globe2" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
-                            </svg>
+                            <i class="bi bi-globe2 fs-2"></i>
                         </div>
                         <h4>Jangkauan Luas</h4>
                         <p class="mt-4 mb-0">Melayani petani di seluruh Indonesia dengan dukungan teknis terpadu</p>
@@ -97,10 +80,7 @@
                 <!-- VISI -->
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="visi-misi-box">
-                        <!-- Ikon daun -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon-daun" viewBox="0 0 16 16">
-                            <path d="M1.4 1.7c.216.289.65.84 1.725 1.274 ... (potong untuk ringkas)" />
-                        </svg>
+                        <i class="bi bi-leaf"></i>
                         <h4>Vision</h4>
                         <p>Mewujudkan masa depan pertanian yang hijau, efisien, dan otomatis melalui teknologi IoT.</p>
                     </div>
@@ -110,9 +90,7 @@
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="visi-misi-box">
                         <!-- Ikon daun -->
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon-daun" viewBox="0 0 16 16">
-                            <path d="M1.4 1.7c.216.289.65.84 1.725 1.274 ... (potong untuk ringkas)" />
-                        </svg>
+                       <i class="bi bi-leaf"></i>
                         <h4>Mission</h4>
                         <p>
                             Menyediakan solusi pertanian modern berbasis teknologi.<br>
@@ -151,27 +129,38 @@
         <div class="row mt-4 text-center">
             <div class="col-md-3">
                 <div class="card p-3">
-                    <img src="/img/suhu.png" alt="Monitoring Suhu" class="card-img-top">
-                    <h5>Monitoring Suhu</h5>
+                    <div class="ratio ratio-9x16 mb-3">
+                        <img src="/img/modular.jpg" alt="Modular Farming" class="card-img-top">
+                    </div>
+                    <h5>Modular Farming</h5>
                     <p>Pantau suhu rumah kaca secara real-time.</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card p-3">
-                    <h5>Sensor Kelembapan</h5>
-                    <p>Deteksi kelembapan tanah untuk pengairan otomatis.</p>
+                    <div class="ratio ratio-9x16 mb-3">
+                        <img src="/img/biji.jpg" alt="Biji" class="card-img-top">
+                    </div>
+                    <h5>Benih Premium</h5>
+                    <p>Ragam benih sayuran siap tanam</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card p-3">
-                    <h5>Kontrol Otomatis</h5>
-                    <p>Atur kipas, penyiram, dan pencahayaan otomatis.</p>
+                    <div class="ratio ratio-9x16 mb-3">
+                        <img src="/img/vitamin.jpg" alt="Vitamin" class="card-img-top">
+                    </div>
+                    <h5>Nutrisi AB Mix</h5>
+                    <p>nutrisi lengkap optimalisasi tanaman.</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card p-3">
-                    <h5>Mobile Dashboard</h5>
-                    <p>Kelola semua fitur melalui aplikasi seluler.</p>
+                    <div class="ratio ratio-9x16 mb-3">
+                        <img src="/img/aplikasi2.png" alt="Aplikasi" class="card-img-top">
+                    </div>
+                    <h5>Aplikasi Verdant</h5>
+                    <p>Pantau langsung dari smartphone Anda.</p>
                 </div>
             </div>
         </div>
@@ -182,22 +171,22 @@
         <h2 class="text-center mb-4">Our Team</h2>
         <div class="row text-center">
             <div class="col-md-3">
-                <img src="/img/ceo.jpg" class="img-fluid rounded-circle mb-2" width="100">
+                <img src="/img/ceo.png" class="img-fluid rounded-circle mb-2" width="400">
                 <h5>CEO</h5>
                 <p>Dinda Patrisca</p>
             </div>
             <div class="col-md-3">
-                <img src="/img/cto.jpg" class="img-fluid rounded-circle mb-2" width="100">
+                <img src="/img/ceo.png" class="img-fluid rounded-circle mb-2" width="400">
                 <h5>CTO</h5>
                 <p>Yoga Bayu</p>
             </div>
             <div class="col-md-3">
-                <img src="/img/cmo.jpg" class="img-fluid rounded-circle mb-2" width="100">
+                <img src="/img/ceo.png" class="img-fluid rounded-circle mb-2" width="400">
                 <h5>CMO</h5>
                 <p>Akhyar</p>
             </div>
             <div class="col-md-3">
-                <img src="/img/produksi.jpg" class="img-fluid rounded-circle mb-2" width="100">
+                <img src="/img/ceo.png" class="img-fluid rounded-circle mb-2" width="400">
                 <h5>Kepala Produksi</h5>
                 <p>Heru</p>
             </div>
@@ -205,7 +194,7 @@
     </section>
 
     {{-- OUR ACHIEVEMENT --}}
-    <section class="container my-5">
+    {{-- <section class="container my-5">
         <h2 class="text-center mb-4">Our Achievement</h2>
         <div class="row text-center">
             <div class="col-md-4">
@@ -218,30 +207,251 @@
                 <img src="/img/achieve3.jpg" class="img-fluid rounded">
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    {{-- TESTIMONI --}}
-    <section class="py-5" style="background-color: #e9f5ec;">
+    {{-- PENGHARGAAN --}}
+
+    <section id="artikel" class="penghargaan-section py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Ini Kata Mereka</h2>
-            <div class="row text-center">
-                <div class="col-md-6">
-                    <div class="p-3 border rounded bg-white">
-                        <p>"Dengan Verdant, kami bisa menanam dengan cepat, hemat air dan hasil lebih maksimal."
-                            <br><strong>– Tedi Sandi, Sleman</strong>
-                        </p>
-                        <span>⭐⭐⭐⭐⭐</span>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="title mb-5">Penghargaan Terkini</h2>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card shadow-sm">
+                        <img src="/img/fotbar.jpg" class="card-img-top" alt="Best AgriTech Innovation Award">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="award-year">2024</span>
+                                <i class="bi bi-bookmark award-icon"></i>
+                            </div>
+                            <h5 class="award-title">Best AgriTech Innovation Award</h5>
+                            <p class="award-organizer">Indonesia AgriTech Summit</p>
+                            <p class="award-description mt-auto pt-2">
+                                Penghargaan inovasi terbaik dalam teknologi.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="p-3 border rounded bg-white">
-                        <p>"Saya bisa memantau tanaman, bahkan saat saya di luar kota. Luar biasa!"
-                            <br><strong>– Yoking, Yogyakarta</strong>
-                        </p>
-                        <span>⭐⭐⭐⭐⭐</span>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card shadow-sm">
+                        <img src="/img/team.jpg" class="card-img-top" alt="Sustainability Excellence Award">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="award-year">2023</span>
+                                <i class="bi bi-bookmark award-icon"></i>
+                            </div>
+                            <h5 class="award-title">Sustainability Award</h5>
+                            <p class="award-organizer">Green Business Awards Indonesia</p>
+                            <p class="award-description mt-auto pt-2">
+                                Pengakuan atas komitmen terhadap praktik bisnis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card shadow-sm">
+                        <img src="/img/acc.jpg" class="card-img-top" alt="Top 10 StartUp of the Year">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="award-year">2023</span>
+                                <i class="bi bi-bookmark award-icon"></i>
+                            </div>
+                            <h5 class="award-title">Top 10 StartUp of the Year</h5>
+                            <p class="award-organizer">Tech in Asia Conference Award</p>
+                            <p class="award-description mt-auto pt-2">
+                                Masuk dalam 10 startup teknologi tema modular agritech terbaik di Asia Tenggara.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card shadow-sm">
+                        <img src="/img/team.jpg" class="card-img-top" alt="Innovation In Agriculture">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="award-year">2022</span>
+                                <i class="bi bi-bookmark award-icon"></i>
+                            </div>
+                            <h5 class="award-title">Innovation In Agriculture</h5>
+                            <p class="award-organizer">Ministry of Agriculture Indonesia</p>
+                            <p class="award-description mt-auto pt-2">
+                                Penghargaan dari Kementerian Pertanian RI untuk inovasi teknologi.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    {{-- TESTIMONI --}}
+    <section class="py-5 testimonial-section" style="background-color: #f0f7f2;">
+        <div class="container">
+            <h2 class="text-center mb-5">Kata Mereka</h2>
+
+            <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="card h-100 p-4 border-0 shadow-sm rounded-4">
+                                    <div class="card-body">
+                                        <div class="stars mb-3"><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                        <p class="fst-italic">"Sejak menggunakan sistem EcoVerdant, hasil panen saya
+                                            meningkat 250%. Teknologinya mudah digunakan dan dukungan timnya sangat baik."
+                                        </p>
+                                        <hr class="my-4">
+                                        <div>
+                                            <h6 class="fw-bold mb-0">Pak Joko Widodo</h6>
+                                            <small class="text-muted">Petani Hidroponik, Bandung</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 d-none d-md-block">
+                                <div class="card h-100 p-4 border-0 shadow-sm rounded-4">
+                                    <div class="card-body">
+                                        <div class="stars mb-3"><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                        <p class="fst-italic">"EcoVerdant membantu saya mengotomatisasi proses bertani.
+                                            Sekarang saya bisa fokus pada pengembangan bisnis tanpa khawatir masalah
+                                            teknis."</p>
+                                        <hr class="my-4">
+                                        <div>
+                                            <h6 class="fw-bold mb-0">Ibu Sari Dewi</h6>
+                                            <small class="text-muted">Pemilik Kebun Organik, Malang</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="card h-100 p-4 border-0 shadow-sm rounded-4">
+                                    <div class="card-body">
+                                        <div class="stars mb-3"><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                        <p class="fst-italic">"Analisis data dari sensor sangat membantu kami dalam
+                                            mengambil keputusan penyiraman dan pemupukan. Sangat efisien!"</p>
+                                        <hr class="my-4">
+                                        <div>
+                                            <h6 class="fw-bold mb-0">Bapak Budi Santoso</h6>
+                                            <small class="text-muted">Manajer Perkebunan, Lembang</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 d-none d-md-block">
+                                <div class="card h-100 p-4 border-0 shadow-sm rounded-4">
+                                    <div class="card-body">
+                                        <div class="stars mb-3"><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                        <p class="fst-italic">"Aplikasi mobile-nya sangat intuitif. Saya bisa memantau
+                                            kebun dari mana saja, bahkan saat liburan. Benar-benar game-changer."</p>
+                                        <hr class="my-4">
+                                        <div>
+                                            <h6 class="fw-bold mb-0">Ibu Rina Hartati</h6>
+                                            <small class="text-muted">Penggiat Urban Farming, Jakarta</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="bi bi-chevron-left"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"><i
+                            class="bi bi-chevron-right"></i></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+                <div class="carousel-indicators position-static mt-4">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#testimonialModal">
+                    <i class="bi bi-chat-square-quote"></i> Tulis Testimoni Anda
+                </button>
+            </div>
+        </div>
+    </section>
+ <div class="modal fade" id="modalUntukTestimoni" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Formulir Testimoni</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formTestimoni" action="{{ route('testimoni.store') }}" method="POST">
+                        @csrf
+                        <div class="mb-3">
+                            <label for="nama_user" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="nama_user" name="nama" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="pekerjaan_user" class="form-label">Pekerjaan / Lokasi</label>
+                            <input type="text" class="form-control" id="pekerjaan_user" name="pekerjaan" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label d-block">Rating Anda</label>
+                            <div class="star-rating">
+                                <input type="radio" id="5-stars" name="rating" value="5" required/><label for="5-stars" class="star">&#9733;</label>
+                                <input type="radio" id="4-stars" name="rating" value="4" /><label for="4-stars" class="star">&#9733;</label>
+                                <input type="radio" id="3-stars" name="rating" value="3" /><label for="3-stars" class="star">&#9733;</label>
+                                <input type="radio" id="2-stars" name="rating" value="2" /><label for="2-stars" class="star">&#9733;</label>
+                                <input type="radio" id="1-star" name="rating" value="1" /><label for="1-star" class="star">&#9733;</label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="isi_testimoni" class="form-label">Testimoni Anda</label>
+                            <textarea class="form-control" id="isi_testimoni" name="testimoni" rows="4" required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="submit" class="btn btn-primary" form="formTestimoni">Kirim</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-4">
+        @if (session('success'))
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ session('success') }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        @endif
+    </div>
 @endsection
