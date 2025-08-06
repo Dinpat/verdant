@@ -244,3 +244,49 @@ h1 {
             line-height: 1.6;
             flex-grow: 1;
         }
+
+        /* Styling untuk seluruh seksi partner */
+.partners-section {
+  display: flex;
+  justify-content: space-around; /* Menyebar partner secara merata */
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0; /* Garis pemisah atas */
+  border-bottom: 1px solid #e0e0e0; /* Garis pemisah bawah */
+  background-color: #ffffff; /* Latar belakang putih */
+}
+
+/* Styling untuk setiap item partner (logo + nama) */
+.partner-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px; /* Jarak antara logo dan teks */
+}
+
+/* Styling untuk gambar logo */
+.partner-item img {
+  height: 60px; /* Atur tinggi logo agar seragam */
+  opacity: 0.7; /* Sedikit transparan agar tidak terlalu mencolok */
+}
+
+/* Penyesuaian untuk tampilan mobile */
+@media (max-width: 768px) {
+  .partners-section {
+    flex-direction: column; /* Ubah menjadi vertikal di layar kecil */
+    gap: 20px;
+  }
+}
+
+.btn-hijau-custom {
+  background-color: #1E8449; /* Pilih kode warna hijau yang Anda suka */
+  border-color: #1A7441;     /* Warna border, sedikit lebih gelap */
+  color: #ffffff;             /* Warna teks (putih) */
+}
+
+/* Efek saat kursor mouse di atas tombol */
+.btn-hijau-custom:hover {
+  background-color: #1A7441; /* Warna latar menjadi lebih gelap */
+  border-color: #17653A;
+  color: #ffffff;
+}

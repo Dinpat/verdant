@@ -1,6 +1,6 @@
 <?php
 
-// file: app/Models/Testimoni.php
+// app/Models/Testimoni.php
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -10,11 +10,6 @@ class Testimoni extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
-        'nama',
-        'pekerjaan',
-        'rating',
-        'testimoni',
-        'status', // Meskipun default, baik untuk dimasukkan
-    ];
+    // TAMBAHKAN BARIS INI
+    protected $fillable = ['nama', 'email', 'pesan', 'status'];
 }

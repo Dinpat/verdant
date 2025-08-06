@@ -1,5 +1,6 @@
 <?php
 
+// app/Models/Penghargaan.php
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -9,14 +10,6 @@ class Penghargaan extends Model
 {
     use HasFactory;
 
-    // Ganti 'penghargaan' jika nama tabel Anda berbeda
-    protected $table = 'penghargaan';
-
-    protected $fillable = [
-        'tahun',
-        'nama_penghargaan',
-        'penyelenggara',
-        'deskripsi',
-        'foto',
-    ];
+    // TAMBAHKAN BARIS INI
+    protected $fillable = ['judul', 'deskripsi', 'tanggal', 'gambar'];
 }

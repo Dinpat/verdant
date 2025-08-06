@@ -12,6 +12,21 @@
         </div>
     </section>
 
+    {{-- comunity partner --}}
+
+    <div class="partners-section">
+        <h1 class="display-6 text-center">Comunity Partner</h1>
+        <div class="partner-item">
+            <img src="/img/logomi.png" alt="Logo Universitas Amikom" />
+        </div>
+        <div class="partner-item">
+            <img src="/img/logohimmi.png" alt="Logo HIMMI" />
+        </div>
+        <div class="partner-item">
+            <img src="img/komunitas.png" alt="Logo Komunitas Petani" />
+        </div>
+    </div>
+
     {{-- SEJARAH --}}
     <section id="about" class="container my-5">
         <h1 class="text-center bold">Sejarah Verdant</h1>
@@ -134,6 +149,9 @@
                     </div>
                     <h5>Modular Farming</h5>
                     <p>Pantau suhu rumah kaca secara real-time.</p>
+                        <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
+                            target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
+                        </a>
                 </div>
             </div>
             <div class="col-md-3">
@@ -143,6 +161,9 @@
                     </div>
                     <h5>Benih Premium</h5>
                     <p>Ragam benih sayuran siap tanam</p>
+                     <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
+                            target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
+                        </a>
                 </div>
             </div>
             <div class="col-md-3">
@@ -152,6 +173,9 @@
                     </div>
                     <h5>Nutrisi AB Mix</h5>
                     <p>nutrisi lengkap optimalisasi tanaman.</p>
+                     <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
+                            target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
+                        </a>
                 </div>
             </div>
             <div class="col-md-3">
@@ -161,6 +185,9 @@
                     </div>
                     <h5>Aplikasi Verdant</h5>
                     <p>Pantau langsung dari smartphone Anda.</p>
+                     <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
+                            target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
+                        </a>
                 </div>
             </div>
         </div>
@@ -176,19 +203,19 @@
                 <p>Dinda Patrisca</p>
             </div>
             <div class="col-md-3">
-                <img src="/img/ceo.png" class="img-fluid rounded-circle mb-2" width="400">
+                <img src="/img/akhyar.png" class="img-fluid rounded-circle mb-2" width="400">
                 <h5>CTO</h5>
-                <p>Yoga Bayu</p>
+                <p>Akhyaru</p>
             </div>
             <div class="col-md-3">
-                <img src="/img/ceo.png" class="img-fluid rounded-circle mb-2" width="400">
+                <img src="/img/awan.png" class="img-fluid rounded-circle mb-2" width="400">
                 <h5>CMO</h5>
-                <p>Akhyar</p>
+                <p>Awan</p>
             </div>
             <div class="col-md-3">
-                <img src="/img/ceo.png" class="img-fluid rounded-circle mb-2" width="400">
+                <img src="/img/adi.png" class="img-fluid rounded-circle mb-2" width="400">
                 <h5>Kepala Produksi</h5>
-                <p>Heru</p>
+                <p>Adi</p>
             </div>
         </div>
     </section>
@@ -389,7 +416,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="event-card">
                         <div class="event-card-img-container">
-                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfHNlYXJjaHw1fHxjb21wYW55JTIwc2VtaW5hcnxlbnwwfDB8fHwxNzIyODQyMDYyfA&ixlib=rb-4.0.3&q=80&w=1080"
+                            <img src="/img/1.jpg"
                                 alt="Seminar Perusahaan" class="event-card-img">
                         </div>
                         <div class="event-card-content">
@@ -404,7 +431,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="event-card">
                         <div class="event-card-img-container">
-                            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfHNlYXJjaHw4fHxwcm9kdWN0JTIwbGF1bmNofGVufDB8MHx8fDE3MjI4NDIwOTJ8&ixlib=rb-4.0.3&q=80&w=1080"
+                            <img src="img/4.jpg"
                                 alt="Peluncuran Produk" class="event-card-img">
                         </div>
                         <div class="event-card-content">
@@ -419,7 +446,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="event-card">
                         <div class="event-card-img-container">
-                            <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfHNlYXJjaHwxfHxDU1IlMjB2b2x1bnRlZXJ8ZW58MHwwfHx8MTcyMjg0MjEyN3w&ixlib=rb-4.0.3&q=80&w=1080"
+                            <img src="img/2.jpeg"
                                 alt="Kegiatan Sosial" class="event-card-img">
                         </div>
                         <div class="event-card-content">
@@ -434,7 +461,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="event-card">
                         <div class="event-card-img-container">
-                            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzEyNjZ8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjBleHBvfGVufDB8MHx8fDE3MjI4NDIxODF8&ixlib=rb-4.0.3&q=80&w=1080"
+                            <img src="/img/3.jpg"
                                 alt="Pameran Bisnis" class="event-card-img">
                         </div>
                         <div class="event-card-content">
@@ -446,7 +473,7 @@
                     </div>
                 </div>
 
-                
+
 
             </div>
         </div>

@@ -29,4 +29,23 @@ class TestimoniController extends Controller
         // 3. Redirect kembali ke halaman sebelumnya dengan pesan sukses
         return redirect()->back()->with('success', 'Terima kasih! Testimoni Anda telah kami terima dan akan ditinjau terlebih dahulu.');
     }
+
+    public function indexAdmin()
+    {
+        $testimonisPending = Testimoni::where('status', 'pending')->latest()->get();
+        $testimonisApproved = Testimoni::where('status', 'approved')->latest()->get();
+        
+        return view('admin.testimoni.index', compact('testimonisPending', 'testimonisApproved'));
+    }
+
+    /**
+     * Menyetujui testimoni.
+     */
+    public function approve(Testimoni $testimoni)
+    {
+        $testimoni->status = 'approved';
+        $testimoni->save();
+
+        return back()->with('success', 'Testimoni berhasil disetujui!');
+    }
 }

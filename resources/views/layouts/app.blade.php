@@ -14,7 +14,8 @@
     <nav class="navbar navbar-expand-lg px-5 navbar-dark py-3 sticky-top" style="background: #0b1408">
         <div class="container-fluid px-5">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="img/verdant1.png" alt="Logo Verdant" width="40" height="40" class="d-inline-block align-text-top me-2">VERDANT</a>
+                <img src="img/verdant1.png" alt="Logo Verdant" width="40" height="40"
+                    class="d-inline-block align-text-top me-2">VERDANT</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -34,8 +35,10 @@
                             Artikel
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://www.instagram.com/dindapatriska/" target="blank">instagram</a></li>
-                            <li><a class="dropdown-item" href="https://shopee.co.id/verdant.id" target="blank">shopee</a></li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/dindapatriska/"
+                                    target="blank">instagram</a></li>
+                            <li><a class="dropdown-item" href="https://shopee.co.id/verdant.id"
+                                    target="blank">shopee</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -45,21 +48,29 @@
                 </ul>
                 @auth
                     <li class="nav-item dropdown text-white">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAkun" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            {{ Auth::user()->name }} 
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle d-flex align-items-center" href="#"
+                            role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            @if (Auth::user()->profile_photo_path)
+                                <img src="{{ asset('storage/' . Auth::user()->profile_photo_path) }}" alt="Photo"
+                                    class="rounded-circle me-2" width="30" height="30" style="object-fit: cover;">
+                            @endif
+                            {{ Auth::user()->name }}
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownAkun">
-                            <li>
-                                <a class="dropdown-item" href="#">Profile</a>
-                            </li>
-                            <li>
-                                <form method="POST" action="{{ route('logout') }}">
-                                    @csrf
-                                    <button type="submit" class="dropdown-item">Logout</button>
-                                </form>
-                            </li>
-                        </ul>
+
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ route('profile.edit') }}">
+                                Profil Saya
+                            </a>
+                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                         document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+                        </div>
                     </li>
                 @else
                     <li class="nav-item">

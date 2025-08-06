@@ -2,61 +2,89 @@
 
 namespace App\Http\Controllers\Admin;
 
+
+
 use App\Http\Controllers\Controller;
 use App\Models\Penghargaan;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Storage; // <-- Import Storage
 
 class PenghargaanController extends Controller
 {
-    public function adminIndex()
-{
-    $penghargaan = penghargaan::all();
-    return view('admin.penghargaan.index', compact('penghargaan'));
-}
-
-public function store(Request $request)
-{
-    $data = $request->validate([
-       'tahun'=> 'required',
-        'nama_penghargaan'=> 'required',
-        'penyelenggara'=> 'required',
-        'deskripsi'=> 'required',
-        'foto'=> 'image|nullable',
-    ]);
-
-    if ($request->hasFile('image')) {
-        $data['image'] = $request->file('image')->store('penghargaan', 'public');
+    public function index()
+    {
+        $penghargaans = Penghargaan::latest()->paginate(10);
+        return view('admin.penghargaan.index', compact('penghargaans'));
     }
 
-    penghargaan::create($data);
-    return back()->with('success', 'Penghargaan ditambahkan.');
-}
-
-public function update(Request $request, $id)
-{
-    $penghargaan = penghargaan::findOrFail($id);
-
-    $data = $request->validate([
-        'tahun'=> 'required',
-        'nama_penghargaan'=> 'required',
-        'penyelenggara'=> 'required',
-        'deskripsi'=> 'required',
-        'foto'=> 'image|nullable',
-    ]);
-
-    if ($request->hasFile('image')) {
-        $data['image'] = $request->file('image')->store('penghargaan', 'public');
+    public function create()
+    {
+        return view('admin.penghargaan.create');
     }
 
-    $penghargaan->update($data);
-    return back()->with('success', 'Penghargaan diperbarui.');
-}
+    public function store(Request $request)
+    {
+        $request->validate([
+            'judul' => 'required|string|max:255',
+            'deskripsi' => 'required|string',
+            'tanggal' => 'required|date',
+            'gambar' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:2048',
+        ]);
 
-public function destroy($id)
-{
-    $penghargaan = penghargaan::findOrFail($id);
-    $penghargaan->delete();
-    return back()->with('success', 'Penghargaan dihapus.');
-}
+        $data = $request->except('gambar');
+
+        if ($request->hasFile('gambar')) {
+            $path = $request->file('gambar')->store('penghargaan', 'public');
+            $data['gambar'] = $path;
+        }
+
+        Penghargaan::create($data);
+
+        return redirect()->route('admin.penghargaan.index')->with('success', 'Penghargaan berhasil ditambahkan.');
+    }
+
+    public function show(Penghargaan $penghargaan)
+    {
+        return view('admin.penghargaan.show', compact('penghargaan'));
+    }
+
+    public function edit(Penghargaan $penghargaan)
+    {
+        return view('admin.penghargaan.edit', compact('penghargaan'));
+    }
+
+    public function update(Request $request, Penghargaan $penghargaan)
+    {
+        $request->validate([
+            'judul' => 'required|string|max:255',
+            'deskripsi' => 'required|string',
+            'tanggal' => 'required|date',
+            'gambar' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:2048',
+        ]);
+
+        $data = $request->except('gambar');
+
+        if ($request->hasFile('gambar')) {
+            // Hapus gambar lama jika ada
+            if ($penghargaan->gambar) {
+                Storage::disk('public')->delete($penghargaan->gambar);
+            }
+            $path = $request->file('gambar')->store('penghargaan', 'public');
+            $data['gambar'] = $path;
+        }
+
+        $penghargaan->update($data);
+
+        return redirect()->route('admin.penghargaan.index')->with('success', 'Penghargaan berhasil diperbarui.');
+    }
+
+    public function destroy(Penghargaan $penghargaan)
+    {
+        if ($penghargaan->gambar) {
+            Storage::disk('public')->delete($penghargaan->gambar);
+        }
+        $penghargaan->delete();
+
+        return redirect()->route('admin.penghargaan.index')->with('success', 'Penghargaan berhasil dihapus.');
+    }
 }

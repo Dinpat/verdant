@@ -56,7 +56,7 @@
                         <label>Password</label>
                         <input type="password" name="password" class="form-control" required>
                     </div>
-                    <button class="btn btn-custom w-100">Login</button>
+                    <button class="btn btn-custom w-100">Login</button >
                 </form>
                 <div class="text-center mt-3">
                     <small>Belum punya akun? <a href="{{ route('register') }}">Daftar di sini</a></small>
