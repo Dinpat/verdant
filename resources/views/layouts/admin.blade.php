@@ -37,7 +37,7 @@
             color: #007bff;
         }
         .main-content {
-            margin-left: 220px; /* Sesuaikan dengan lebar sidebar */
+            margin-left: 220px; 
             padding: 20px;
         }
         .navbar-brand {

@@ -10,6 +10,6 @@ class Testimoni extends Model
 {
     use HasFactory;
 
-    // TAMBAHKAN BARIS INI
+    
     protected $fillable = ['nama', 'email', 'pesan', 'status'];
 }

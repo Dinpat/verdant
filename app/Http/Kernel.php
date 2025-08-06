@@ -63,7 +63,7 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         
-        // INI BARIS KUNCINYA
+        
         'admin' => \App\Http\Middleware\AdminMiddleware::class,
     ];
 }

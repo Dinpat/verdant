@@ -7,7 +7,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Penghargaan;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage; // <-- Import Storage
+use Illuminate\Support\Facades\Storage; 
 
 class PenghargaanController extends Controller
 {
@@ -65,7 +65,7 @@ class PenghargaanController extends Controller
         $data = $request->except('gambar');
 
         if ($request->hasFile('gambar')) {
-            // Hapus gambar lama jika ada
+            
             if ($penghargaan->gambar) {
                 Storage::disk('public')->delete($penghargaan->gambar);
             }

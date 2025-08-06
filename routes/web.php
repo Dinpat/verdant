@@ -39,15 +39,15 @@ Route::middleware('auth')->group(function () {
 // --- GRUP ROUTE ADMIN ---
 Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(function () {
     
-    // Dashboard Admin
+    
     Route::get('/dashboard', function () {
         return view('admin.dashboard'); // Nanti kita buat view ini
     })->name('dashboard');
 
-    // CRUD untuk Prestasi/Penghargaan
+    
     Route::resource('penghargaan', PenghargaanController::class);
 
-    // Persetujuan untuk Testimoni
+    
     Route::get('testimoni', [TestimoniController::class, 'indexAdmin'])->name('testimoni.index');
     Route::patch('testimoni/{testimoni}/approve', [TestimoniController::class, 'approve'])->name('testimoni.approve');
 });

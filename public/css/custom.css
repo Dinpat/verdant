@@ -17,7 +17,7 @@ h1 {
 
 
 .icon-circle {
-    background-color: #4CAF50; /* hijau */
+    background-color: #4CAF50; 
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -27,7 +27,7 @@ h1 {
 }
 
 .visi-misi-box {
-        background-color: rgba(255, 255, 255, 0.1); /* transparan putih */
+        background-color: rgba(255, 255, 255, 0.1); 
         border-radius: 12px;
         padding: 30px;
         color: white;
@@ -38,7 +38,7 @@ h1 {
     .icon-daun {
         width: 30px;
         height: 30px;
-        fill: #bfffc1; /* hijau daun muda */
+        fill: #bfffc1; 
         margin-bottom: 10px;
     }
 
@@ -53,7 +53,7 @@ h1 {
 }
 
 .ratio-9x16 {
-    --bs-aspect-ratio: 177.77%; /* Hasil dari (16 / 9) * 100% */
+    --bs-aspect-ratio: 177.77%; 
 }
 
 .testimonial-section h2 {
@@ -73,21 +73,21 @@ h1 {
             color: #ffc107;
         }
 
-        /* Mengubah warna panah navigasi carousel menjadi hijau tua */
+       
         .testimonial-carousel .carousel-control-prev-icon,
         .testimonial-carousel .carousel-control-next-icon {
-            background-image: none; /* Hapus ikon default */
+            background-image: none; 
             width: 2.5rem;
             height: 2.5rem;
-            color: #1e6e4a; /* Atur warna ikon */
-            background-color: rgba(255, 255, 255, 0.7); /* Latar belakang semi-transparan */
+            color: #1e6e4a; 
+            background-color: rgba(255, 255, 255, 0.7); 
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        /* Mengubah warna indikator carousel (garis di bawah) */
+        
         .testimonial-carousel .carousel-indicators [data-bs-target] {
             background-color: #1e6e4a;
             height: 4px;
@@ -100,12 +100,12 @@ h1 {
             opacity: 1;
         }
         
-        /* Memberi ruang untuk navigasi */
+        
         .testimonial-carousel .carousel-inner {
             padding: 0 50px;
         }
 
-  /* CSS Kustom untuk Galeri */
+  
         body {
             background-color: #f8f9fa;
         }
@@ -189,11 +189,11 @@ h1 {
 
         /* Card untuk setiap kegiatan */
         .event-card {
-            background-color: #1a1a1a; /* Warna card sedikit lebih terang dari background */
+            background-color: #1a1a1a; 
             border-radius: 12px;
-            overflow: hidden; /* Penting agar gambar mengikuti border-radius */
+            overflow: hidden; 
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            height: 100%; /* Membuat semua card sama tinggi */
+            height: 100%; 
             display: flex;
             flex-direction: column;
         }
@@ -206,13 +206,13 @@ h1 {
         /* Kontainer gambar untuk rasio aspek yang konsisten */
         .event-card-img-container {
             width: 100%;
-            aspect-ratio: 16 / 9; /* Rasio aspek gambar agar seragam */
+            aspect-ratio: 16 / 9; 
         }
         
         .event-card-img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Memastikan gambar mengisi ruang tanpa distorsi */
+            object-fit: cover; 
         }
 
         /* Konten di bawah gambar */
@@ -232,14 +232,14 @@ h1 {
         }
 
         .event-date {
-            color: #adb5bd; /* Warna abu-abu untuk tanggal */
+            color: #adb5bd; 
             font-size: 0.9rem;
             margin-top: 5px;
             margin-bottom: 15px;
         }
 
         .event-description {
-            color: #ced4da; /* Warna putih pudar untuk deskripsi */
+            color: #ced4da; 
             font-size: 1rem;
             line-height: 1.6;
             flex-grow: 1;
@@ -248,12 +248,12 @@ h1 {
         /* Styling untuk seluruh seksi partner */
 .partners-section {
   display: flex;
-  justify-content: space-around; /* Menyebar partner secara merata */
+  justify-content: space-around; 
   align-items: center;
   padding: 20px 0;
-  border-top: 1px solid #e0e0e0; /* Garis pemisah atas */
-  border-bottom: 1px solid #e0e0e0; /* Garis pemisah bawah */
-  background-color: #ffffff; /* Latar belakang putih */
+  border-top: 1px solid #e0e0e0; 
+  border-bottom: 1px solid #e0e0e0; 
+  background-color: #ffffff; 
 }
 
 /* Styling untuk setiap item partner (logo + nama) */
@@ -261,32 +261,32 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px; /* Jarak antara logo dan teks */
+  gap: 12px; 
 }
 
 /* Styling untuk gambar logo */
 .partner-item img {
-  height: 60px; /* Atur tinggi logo agar seragam */
-  opacity: 0.7; /* Sedikit transparan agar tidak terlalu mencolok */
+  height: 60px; 
+  opacity: 0.7; 
 }
 
 /* Penyesuaian untuk tampilan mobile */
 @media (max-width: 768px) {
   .partners-section {
-    flex-direction: column; /* Ubah menjadi vertikal di layar kecil */
+    flex-direction: column; 
     gap: 20px;
   }
 }
 
 .btn-hijau-custom {
-  background-color: #1E8449; /* Pilih kode warna hijau yang Anda suka */
-  border-color: #1A7441;     /* Warna border, sedikit lebih gelap */
-  color: #ffffff;             /* Warna teks (putih) */
+  background-color: #1E8449; 
+  border-color: #1A7441;     
+  color: #ffffff;             
 }
 
 /* Efek saat kursor mouse di atas tombol */
 .btn-hijau-custom:hover {
-  background-color: #1A7441; /* Warna latar menjadi lebih gelap */
+  background-color: #1A7441; 
   border-color: #17653A;
   color: #ffffff;
 }

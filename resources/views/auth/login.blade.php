@@ -23,14 +23,14 @@
 
         .btn-custom {
             background-color: #28a745;
-            /* Hijau */
+          
             color: white;
             border: none;
         }
 
         .btn-custom:hover {
             background-color: #218838;
-            /* Warna saat hover */
+            
         }
     </style>
 </head>
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="col-md-6 login-img d-none d-md-block">
-            <!-- Gambar login (optional) -->
+            
         </div>
     </div>
 </body>

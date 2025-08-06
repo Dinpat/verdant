@@ -10,6 +10,6 @@ class Penghargaan extends Model
 {
     use HasFactory;
 
-    // TAMBAHKAN BARIS INI
+    
     protected $fillable = ['judul', 'deskripsi', 'tanggal', 'gambar'];
 }

@@ -16,12 +16,12 @@ class HomeController extends BaseController
 
     public function index()
 {
-    // Logika untuk mengarahkan user setelah login
+    
     if (auth()->user()->role == 'admin') {
         return redirect()->route('admin.dashboard');
     }
 
-    // Jika bukan admin, arahkan ke halaman utama atau halaman user
+    
     return redirect('home'); 
 }
 }

@@ -28,16 +28,16 @@ class ProfileController extends Controller
         $user = Auth::user();
 
         $request->validate([
-            'photo' => ['nullable', 'image', 'max:2048'], // Validasi: harus gambar, maks 2MB
+            'photo' => ['nullable', 'image', 'max:2048'], 
         ]);
 
         if ($request->hasFile('photo')) {
-            // Hapus foto lama jika ada
+            
             if ($user->profile_photo_path) {
                 Storage::disk('public')->delete($user->profile_photo_path);
             }
 
-            // Simpan foto baru dan update path di database
+            
             $path = $request->file('photo')->store('profile-photos', 'public');
             $user->profile_photo_path = $path;
             $user->save();
