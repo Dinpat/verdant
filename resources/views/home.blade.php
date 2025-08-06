@@ -149,9 +149,9 @@
                     </div>
                     <h5>Modular Farming</h5>
                     <p>Pantau suhu rumah kaca secara real-time.</p>
-                        <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
-                            target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
-                        </a>
+                    <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
+                        target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
+                    </a>
                 </div>
             </div>
             <div class="col-md-3">
@@ -161,9 +161,9 @@
                     </div>
                     <h5>Benih Premium</h5>
                     <p>Ragam benih sayuran siap tanam</p>
-                     <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
-                            target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
-                        </a>
+                    <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
+                        target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
+                    </a>
                 </div>
             </div>
             <div class="col-md-3">
@@ -173,9 +173,9 @@
                     </div>
                     <h5>Nutrisi AB Mix</h5>
                     <p>nutrisi lengkap optimalisasi tanaman.</p>
-                     <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
-                            target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
-                        </a>
+                    <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
+                        target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
+                    </a>
                 </div>
             </div>
             <div class="col-md-3">
@@ -185,9 +185,9 @@
                     </div>
                     <h5>Aplikasi Verdant</h5>
                     <p>Pantau langsung dari smartphone Anda.</p>
-                     <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
-                            target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
-                        </a>
+                    <a href="https://wa.me/628881174657?text=hallo%2C%20saya%20tertarik%20dengan%20produk%20Verdant"
+                        target="_blank"><button class="btn btn-hijau-custom">Pesan Sekarang</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -247,9 +247,13 @@
             </div>
 
             <div class="row g-4">
+
                 <div class="col-lg-3 col-md-6">
                     <div class="card shadow-sm">
-                        <img src="/img/fotbar.jpg" class="card-img-top" alt="Best AgriTech Innovation Award">
+                        <a
+                            href="https://home.amikom.ac.id/2025/05/20/inovasi-mahasiswa-amikom-raih-prestasi-di-nextgen-sciences-techpreneur-battle-nstb-2025/" target="_blank">
+                            <img src="/img/fotbar.jpg" class="card-img-top" alt="Best AgriTech Innovation Award">
+                        </a>
                         <div class="card-body d-flex flex-column">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="award-year">2024</span>
@@ -267,7 +271,10 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="card shadow-sm">
+                        <a
+                            href="https://home.amikom.ac.id/2025/05/20/inovasi-mahasiswa-amikom-raih-prestasi-di-nextgen-sciences-techpreneur-battle-nstb-2025/" target="_blank">
                         <img src="/img/team.jpg" class="card-img-top" alt="Sustainability Excellence Award">
+                        </a>
                         <div class="card-body d-flex flex-column">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="award-year">2023</span>
@@ -284,7 +291,10 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="card shadow-sm">
+                        <a
+                            href="https://home.amikom.ac.id/2025/05/20/inovasi-mahasiswa-amikom-raih-prestasi-di-nextgen-sciences-techpreneur-battle-nstb-2025/" target="_blank">
                         <img src="/img/acc.jpg" class="card-img-top" alt="Top 10 StartUp of the Year">
+                        </a>
                         <div class="card-body d-flex flex-column">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="award-year">2023</span>
@@ -301,7 +311,10 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="card shadow-sm">
+                        <a
+                            href="https://home.amikom.ac.id/2025/05/20/inovasi-mahasiswa-amikom-raih-prestasi-di-nextgen-sciences-techpreneur-battle-nstb-2025/" target="_blank">
                         <img src="/img/team.jpg" class="card-img-top" alt="Innovation In Agriculture">
+                        </a>
                         <div class="card-body d-flex flex-column">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="award-year">2022</span>
@@ -416,8 +429,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="event-card">
                         <div class="event-card-img-container">
-                            <img src="/img/1.jpg"
-                                alt="Seminar Perusahaan" class="event-card-img">
+                            <img src="/img/1.png" alt="Seminar Perusahaan" class="event-card-img">
                         </div>
                         <div class="event-card-content">
                             <h5 class="event-title">Seminar Perusahaan 2025</h5>
@@ -431,8 +443,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="event-card">
                         <div class="event-card-img-container">
-                            <img src="img/4.jpg"
-                                alt="Peluncuran Produk" class="event-card-img">
+                            <img src="img/4.png" alt="Peluncuran Produk" class="event-card-img">
                         </div>
                         <div class="event-card-content">
                             <h5 class="event-title">Peluncuran Produk 'Innovate X'</h5>
@@ -446,8 +457,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="event-card">
                         <div class="event-card-img-container">
-                            <img src="img/2.jpeg"
-                                alt="Kegiatan Sosial" class="event-card-img">
+                            <img src="img/2.png" alt="Kegiatan Sosial" class="event-card-img">
                         </div>
                         <div class="event-card-content">
                             <h5 class="event-title">Bakti Sosial & CSR</h5>
@@ -461,8 +471,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="event-card">
                         <div class="event-card-img-container">
-                            <img src="/img/3.jpg"
-                                alt="Pameran Bisnis" class="event-card-img">
+                            <img src="/img/3.png" alt="Pameran Bisnis" class="event-card-img">
                         </div>
                         <div class="event-card-content">
                             <h5 class="event-title">Partisipasi di Indo-Tech Expo</h5>
@@ -586,10 +595,10 @@
                 </div>
             </div>
             <div class="text-center">
-                <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal"
+                {{-- <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal"
                     data-bs-target="#testimonialModal">
                     <i class="bi bi-chat-square-quote"></i> Tulis Testimoni Anda
-                </button>
+                </button> --}}
             </div>
         </div>
     </section>

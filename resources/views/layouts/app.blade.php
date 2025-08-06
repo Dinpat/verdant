@@ -129,7 +129,7 @@
             <hr>
 
             <div class="text-center">
-                <small>Copyright © 2025 Dsign by Dinda Patrisca </small>
+                <small>Copyright © 2025 Design by Dinda Patrisca </small>
             </div>
         </div>
     </footer>
